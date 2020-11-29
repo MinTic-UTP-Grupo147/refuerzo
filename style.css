@@ -3,6 +3,7 @@ body{
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    
 }
 .header{
     background-color: aqua;
@@ -13,12 +14,70 @@ body{
     justify-content: space-evenly;
     text-align: justify;
 }
+.general-noticias{
+    margin: 10px;
+    
+}
+.titulo-noticias{
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    background-color: rgb(177, 174, 174);
+    text-align: center;
+    border:rgb(177, 174, 174) 5px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
 .noticias{
-    background-color: burlywood;
     display: flex;
     justify-content: space-evenly;
     text-align: justify;
 }
+.noticia{
+    width: 580px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+    
+    
+   
+}
+.noticia__inf{
+    border: rgb(175, 172, 172) 2px solid;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.noticia__imagen{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 40px ;
+    border-top-right-radius: 40px ;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    object-fit: cover;
+    
+}
+.noticia__titulo{
+    text-align: center;
+    margin-bottom: 2px;
+}
+.noticia__parrafo{
+    margin: 10px;
+}
+.noticia__link{
+    margin: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
 .miembros{
     background-color: white;
     display: flex;
@@ -64,6 +123,5 @@ body{
 .servicios__contenedor{
 
 }
-.noticia{
-    display: flex;
-}
+
+

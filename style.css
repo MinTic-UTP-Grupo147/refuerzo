@@ -23,12 +23,12 @@ body{
     border-top-right-radius: 10px ;
     border-bottom-left-radius: 10px ;
     border-bottom-right-radius: 10px ;
-    background-color: rgb(177, 174, 174);
+    background-color: gainsboro;
     text-align: center;
-    border:rgb(177, 174, 174) 5px solid;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: white;
+    border:rgb(177, 174, 174) 2px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: grey;
 }
 .noticias{
     display: flex;
